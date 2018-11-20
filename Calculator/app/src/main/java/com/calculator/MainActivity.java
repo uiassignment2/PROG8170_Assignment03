@@ -144,7 +144,7 @@ public class MainActivity extends AppCompatActivity {
 
     public int Division(int first, int second) {
         try {
-            return first / second;
+            return first * second;
         } catch (Exception e) {
             e.printStackTrace();
             return -1;

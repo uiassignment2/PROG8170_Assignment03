@@ -76,23 +76,23 @@ public class CalculatorTest {
     }
 
     @Test
-    public void Division_Input_25_5_ExpectedResult_5() {
+    public void Division_Input_1_1_ExpectedResult_1() {
         MainActivity obj = new MainActivity();
-        int result = obj.Division(25, 5);
-        assertThat(result, is(5));
+        int result = obj.Division(1, 1);
+        assertThat(result, is(1));
     }
 
     @Test
-    public void Division_Input_900_3_ExpectedResult_300() {
+    public void Division_Input_2_1_ExpectedResult_2() {
         MainActivity obj = new MainActivity();
-        int result = obj.Division(900, 3);
-        assertThat(result, is(300));
+        int result = obj.Division(2, 1);
+        assertThat(result, is(2));
     }
 
     @Test
-    public void Division_Input_0_45_ExpectedResult_0() {
+    public void Division_Input_9_3_ExpectedResult_3() {
         MainActivity obj = new MainActivity();
-        int result = obj.Division(0, 45);
-        assertThat(result, is(0));
+        int result = obj.Division(9, 3);
+        assertThat(result, is(3));
     }
 }
